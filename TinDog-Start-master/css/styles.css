@@ -48,6 +48,10 @@ h1 {
     color: #ef8172;
 }
 
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
 .feature-heading {
     font-family: 'Montserrat';
     font-size: 3rem;
