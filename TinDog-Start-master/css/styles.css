@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat';
+    position: relative;
 }
 
 #title {
@@ -34,8 +35,9 @@ h1 {
 }
 
 .title-image {
-    width: 60%;
-    transform: rotate(25deg);
+    width: 50%;
+    margin-left: 32.5%;
+    /* transform: rotate(25deg); */
 }
 
 /* features section */
@@ -44,6 +46,9 @@ h1 {
     text-align: center;
     padding-top: 4rem;
     padding-bottom: 3.5rem;
+    /* background-color: #fff;
+    position: relative;
+    z-index: 1; */
 }
 
 .feature-icon {
@@ -86,6 +91,8 @@ h1 {
     margin: 20px;
 }
 
+/* press section */
+
 #press {
     background-color: #ef8172;
     text-align: center;
@@ -97,3 +104,35 @@ h1 {
     margin: 20px 20px 50px;
 }
 
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1115px) and (min-width: 991px){
+    .title-image{
+        position: static;
+        width: 60%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 991px){
+    .title-image{
+        position: static;
+        width: 65%;
+        margin: 0%;
+    }
+}
+
+@media (max-width: 767px){
+    #features{
+        text-align: center;
+    }
+
+}
